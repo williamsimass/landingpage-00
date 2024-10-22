@@ -15,8 +15,8 @@
     --color-gray1: #3d4143;
     --color-gray2: #9c9d9d;
     --color-white: #f6f6f6;
-    --color-destaque1: #e7fc00;
-    --color-destaque2: #728e6f;
+    --color-destaque1: #ffffff;
+    --color-destaque2: #b3008cf1;
 }
 
 /* Estilizando a barra de rolagem */
@@ -150,7 +150,7 @@ a {
 }
 
 .logo img {
-    width: 150px;
+    width: 80px;
 }
 
 /* Menu */
@@ -530,6 +530,12 @@ a {
     justify-content: right;
     align-items: center;
     position: absolute;
+}
+
+.imagem-sobre img {
+    max-width: 70%;
+    border-radius: 10%; /* Torna a imagem arredondada *//* Para garantir que fique completamente circular */
+    object-fit: cover; /* Garante que a imagem se ajuste corretamente dentro do círculo */
 }
 
 .complemento-sobre {

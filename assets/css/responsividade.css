@@ -36,6 +36,7 @@
     }
 
     .imagem-sobre {
+        display: none;
         justify-content: center;
     }
 
