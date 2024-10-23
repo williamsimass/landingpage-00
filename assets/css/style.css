@@ -527,13 +527,13 @@ a {
 
 .imagem-sobre {
     display: flex;
-    justify-content: right;
+    justify-content:center;
     align-items: center;
     position: absolute;
 }
 
 .imagem-sobre img {
-    max-width: 50%;
+    max-width: 60%;
     border-radius: 10%; /* Torna a imagem arredondada *//* Para garantir que fique completamente circular */
 }
 

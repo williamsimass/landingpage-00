@@ -36,11 +36,11 @@
     }
 
     .imagem-sobre {
-        display: none;
         justify-content: center;
     }
 
     .complemento-sobre {
+        padding: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
