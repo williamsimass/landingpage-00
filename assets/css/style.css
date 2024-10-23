@@ -533,9 +533,8 @@ a {
 }
 
 .imagem-sobre img {
-    max-width: 70%;
+    max-width: 50%;
     border-radius: 10%; /* Torna a imagem arredondada *//* Para garantir que fique completamente circular */
-    object-fit: cover; /* Garante que a imagem se ajuste corretamente dentro do círculo */
 }
 
 .complemento-sobre {
