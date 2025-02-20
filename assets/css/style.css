@@ -533,7 +533,7 @@ a {
 }
 
 .imagem-sobre img {
-    max-width: 60%;
+    max-width: 50%;
     border-radius: 10%; /* Torna a imagem arredondada *//* Para garantir que fique completamente circular */
 }
 
@@ -1000,12 +1000,13 @@ a {
 
 .container-contato {
     width: 100%;
-    height: 100vh;
+    height: auto; /* Ajuste a altura para ser automática */
     max-width: 1400px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start; /* Alinhe o conteúdo ao topo */
 }
+
 
 .headline-contato {
     width: 100%;
@@ -1045,24 +1046,27 @@ a {
     font-weight: bold;
 }
 
+
 .conteudo-contato {
     width: 100%;
-    height: 100%;
+    height: auto; /* Ajuste a altura para ser automática */
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
+    padding-bottom: 3rem; /* Adicione um padding inferior para não encostar no rodapé */
 }
+
 
 .formulario-contato {
     width: 50%;
-    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start; /* Ajusta o conteúdo ao topo */
     gap: 1rem;
-    padding: 2rem 0rem 2rem 0rem;
+    padding: 2rem 0rem;
 }
+
 
 .formulario-contato h2 {
     font-size: 2rem;
@@ -1126,8 +1130,8 @@ a {
 }
 
 .logo-contato img {
-    width: 80%;
-    border-radius: 36px;
+    width: 100%;
+    border-radius: 30px;
 }
 
 /*************** FOOTER *****/
